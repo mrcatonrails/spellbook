@@ -1,0 +1,1 @@
+export { DefaultAccordion } from './default'

@@ -1,5 +1,12 @@
 {
   "name": "spellbook",
   "version": "0.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
 }
