@@ -1,13 +1,17 @@
-import { DefaultAccordion } from '../components/accordion'
+import { SingleAccordion, MultiAccordion } from '../components/accordion'
 
 export function AccordionPage() {
   return (
     <div>
       <h1>Accordion</h1>
       <section>
-        <h2>Default Accordion</h2>
+        <h2>Single Accordion</h2>
         <div>
-          <DefaultAccordion />
+          <SingleAccordion />
+        </div>
+        <h2>Multi Accordion</h2>
+        <div>
+          <MultiAccordion />
         </div>
       </section>
     </div>

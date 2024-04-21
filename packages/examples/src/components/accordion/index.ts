@@ -1,1 +1,2 @@
-export { DefaultAccordion } from './default'
+export { MultiAccordion } from './multi-accordion'
+export { SingleAccordion } from './single-accordion'
